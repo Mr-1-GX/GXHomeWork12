@@ -1,0 +1,57 @@
+.section-bg {
+    max-width: $width;
+    width: $width-100;
+    margin: $center;
+    .sect-1-box {
+        margin: $margin;
+        .sect-1-h4 {
+            font-size: $size-f;
+            color: $color-b;
+        }
+        .sect-1-h2 {
+            font-size: $size-f2;
+            color: $color-1;
+        }
+    }
+    .sect-1-cont-1 {
+        .sect-1-formbox {
+            display:  $fx;
+            justify-content: $spar;
+            .formbox-1 {
+                max-width: $form-width;
+                    width: $width-100;
+                .form-1-box {
+                    max-width: $form-width;
+                    width: $width-100;
+                    height: $form-height;
+                    background-color: $color-ground;
+                    resize: none;
+                }
+            }
+            .formbox-2 {
+                display: $fx;
+                justify-content: $sbt;
+                flex-direction: $colm;
+                max-width: $form-width-2;
+                width: $width-100;
+                .form-2-box {
+                    max-width: $form-width-2;
+                    width: $width-100;
+                    height: $form-2-height;
+                    background-color: $color-ground;
+                }
+            .btn {
+                max-width: $form-width-2;
+                width: $width-100;
+                height: $form-2-height;
+                background-color: $color-b;
+                border: none;
+                color: $color-ground;
+                padding: $pdng;
+                font-size: $size-f;
+                cursor: pointer;
+            }
+            }
+        }
+    }
+}
